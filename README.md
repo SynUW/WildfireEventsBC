@@ -8,4 +8,4 @@ Topographic variables include slope, aspect, and hillshade, all derived from hig
 
 Wildfire activity is captured using MODIS active fire products (MOD14A1 and MYD14A1), and wildfire event boundaries and durations are obtained from the GlobFire dataset. MODIS fire products offer global coverage, daily updates, and long time-series data, making them suitable for capturing fire occurrence and intensity. GlobFire aggregates fire pixels into fire events, providing spatiotemporal consistency for modeling.
 
-It can be downloaded from Google Drive at 
+It can be downloaded from Google Drive at https://drive.google.com/drive/folders/1yiNXFM2cL1n-lykrg2dUCKWrRM2qjCPh?usp=sharing
