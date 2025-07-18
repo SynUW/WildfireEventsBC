@@ -64,7 +64,7 @@ DEFAULT_TEST_YEARS = [2023, 2024]
 # Model directory configuration
 # target_all_channels = target_all_channels.clone()
 # target_all_channels[:, :, 0] = (target_all_channels[:, :, 0] > 10).float() Don't forget to remove these 2 lines
-STANDARD_MODEL_DIR = '/mnt/raid/zhengsen/pths/7to1_Focal_woFirms_onlyFirmsLoss_norm'
+STANDARD_MODEL_DIR = '/mnt/raid/user/pths/7to1_Focal_woFirms_onlyFirmsLoss_norm'
 
 def print_config_status():
     """Print current configuration status"""
@@ -2139,8 +2139,8 @@ def prepare_data_loaders():
     """Prepare data loaders"""
     print("📂 Loading data...")
     data_loader = TimeSeriesDataLoader(
-        # h5_dir='/mnt/raid/zhengsen/wildfire_dataset/self_built_materials/pixel_samples_merged',
-        h5_dir='/mnt/raid/zhengsen/wildfire_dataset/self_built_materials/full_datasets',
+        # h5_dir='/mnt/raid/user/wildfire_dataset/self_built_materials/pixel_samples_merged',
+        h5_dir='/mnt/raid/user/wildfire_dataset/self_built_materials/full_datasets',
         positive_ratio=DATA_CONFIG['positive_ratio'],
         pos_neg_ratio=DATA_CONFIG['pos_neg_ratio'],
         resample_each_epoch=False  # Disable resampling at the bottom layer, use dynamic sampling instead
