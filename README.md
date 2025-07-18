@@ -43,7 +43,7 @@ pip install mamba-ssm
 ### 2.1 Data Directory Structure
 - All HDF5 data files should be placed in:
   ```
-  /mnt/raid/zhengsen/wildfire_dataset/self_built_materials/full_datasets/
+  /mnt/raid/user/wildfire_dataset/self_built_materials/full_datasets/
   ```
 
 ### 2.2 Data File Naming and Content
@@ -75,7 +75,7 @@ python train_single_model.py --list-models
 python train_all_models_combined.py --force-retrain
 ```
 - Automatically trains all models, covering all mainstream time series architectures
-- Standard model results are saved in `/mnt/raid/zhengsen/pths/7to1_Focal_woFirms_onlyFirmsLoss_newloadertest/`
+- Standard model results are saved in `/mnt/raid/user/pths/7to1_Focal_woFirms_onlyFirmsLoss_newloadertest/`
 
 ### 3.3 Parallel Training (Recommended)
 ```bash
