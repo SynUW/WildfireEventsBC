@@ -1443,7 +1443,7 @@ def test_year_dataloader():
     """Test year data loader - performance optimized version"""
     
     # Test parameters
-    h5_dir = "/mnt/raid/zhengsen/wildfire_dataset/self_built_materials/year_datasets_h5"
+    h5_dir = "/mnt/raid/user/wildfire_dataset/self_built_materials/year_datasets_h5"
     
     try:
         logger.info("🚀 Start testing year data loader (performance optimized version)...")
